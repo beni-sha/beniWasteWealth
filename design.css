@@ -1,0 +1,33 @@
+nav {
+    margin: 100;
+    padding: 1000;
+    float: right;
+    color: white;
+}
+
+nav a:hover{
+    background-color: rgb(231, 230, 199);
+}
+h1 {
+    color: rgb(28, 46, 68);
+    text-align: center;
+    font-size: 70px;
+    font-style: oblique;
+}
+body{
+    background-image: url("image/bbbbbbbbbbbbbbbbbbbbbbbbbbbbgggggggggggggggggggggg.png");
+    background-size: cover;
+}
+p{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+a{
+    color: rgb(133, 70, 70);
+    padding: 100;
+    float: right;
+}
+img{
+    width: 400px;
+    height: 400px;
+}

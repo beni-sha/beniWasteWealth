@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href= "signin.css" rel="stylesheet">
+    <title>Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <h2>Signin:</h2>
+
+    <form onsubmit="return checkLogin()">
+        Username:<br>
+        <input type="text" id="username" required><br><br>
+
+        Password:<br>
+        <input type="password" id="password" required><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+
+    <p id="result"></p>
+</div>
+
+<script>
+function checkLogin() {
+    var u = document.getElementById("username").value;
+    var p = document.getElementById("password").value;
+
+    if (u == "admin" && p == "1234") {
+        document.getElementById("result").innerHTML = "Login Successful";
+    } else {
+        document.getElementById("result").innerHTML = "Login Failed";
+    }
+    return false;
+}
+</script>
+
+</body>
+</html>

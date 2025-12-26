@@ -1,0 +1,20 @@
+h1{
+  color:rgb(5, 5, 5);
+    text-align: center;
+    font-size: 70px;
+    font-style: oblique;  
+}
+body{
+    background-image: url("image/info.bgg1.jpg");
+    background-size: cover;
+}
+p{
+    font-size: 25px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; /* Or whatever size you want */
+  height: 300;
+}
